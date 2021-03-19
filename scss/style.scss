@@ -1,3 +1,9 @@
-div {
-    color: blue;   
+.container {
+    display: flex;
 }
+
+.row {
+    border-color: rgb(255, 115, 0);   
+    border-width: 10px;
+}
+
