@@ -1,5 +1,13 @@
+.btn {
+  background-color: lightgreen;
+}
+
 .row {
-  color: yellowgreen;
+  color: blueviolet;
+}
+
+#google-partner {
+  width: 250px;
 }
 
 /*# sourceMappingURL=output.css.map */

@@ -8,46 +8,56 @@
     <link rel="icon" type="image/icon type" href="img/NetmattersFavicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/output.css">
+    <link href="./css/css/all.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row1 row" >
             <div class="col">
                 <img class="col"src="img/NetmattersLogo.png" alt="Netmatters logo">
             </div>
+            <button type="button" class="btn col">
+                <i class="fas fa-mouse"></i><span> Support</span>
+            </button>
+            <button type="button" class="btn col">
+                <i class="far fa-paper-plane"></i><span> Contact</span>
+            </button>
+            <button type="button" class="btn col">
+                <i class="fas fa-search"></i>
+            </button>
+            <button type="button" class="btn col">
+                <i class="row fas fa-bars"></i>
+                <span class="row">Menu</span>
+            </button>
+        </div>
+
+        <div class="row row2 d-none d-lg-inline-flex">
             <div class="col">
-                Support
+                <i class="row fas fa-code"></i>
+                <span class="row">Web Design</span>
             </div>
             <div class="col">
-                Contact
+                <i class="row fas fa-desktop"></i>
+                <span class="row">IT Support</span>
             </div>
             <div class="col">
-                SearchIcon
+                <i class="row fas fa-phone-alt"></i>
+                <span class="row">Telecoms Services</span>
             </div>
             <div class="col">
-                Menu
+                <i class="row fas fa-th"></i>
+                <span class="row">Bespoke Software</span>
+            </div>
+            <div class="col">
+                <i class="row fas fa-signal"></i>
+                <span class="row">Digital Marketing</span>
+            </div>
+            <div class="col">
+                <i class="row fas fa-shield-alt"></i>
+                <span class="row">Cyber Security</span>
             </div>
         </div>
-        <div class="row row2">
-            <div class="col">
-                Web Design
-            </div>
-            <div class="col">
-                IT Support
-            </div>
-            <div class="col">
-                Telecoms Services
-            </div>
-            <div class="col">
-                Bespoke Software
-            </div>
-            <div class="col">
-                Digital Marketing
-            </div>
-            <div class="col">
-                Cyber Security
-            </div>
-        </div>
+
         <div class="row3 row">
             <div class="bg-image r3"
                 style="background-image: url('img/slider-image-1.jpg');
@@ -58,10 +68,11 @@ and effective first impression.</p>
             <button type="button" class="btn r3">Find Out More</button>            
             </div>
         </div>
+
         <div class="row4 row">
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-code"></i>
                     <h2 class="card-title">Besopke Software</h2>
                     <p class="card-text">Tailored software solutions to improve business productivity and online profits. Our expert team will ensure a software solution.</p>
                     <button type="button" class="btn">Read More</button>
@@ -69,7 +80,7 @@ and effective first impression.</p>
             </div>
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-desktop"></i>
                     <h2 class="card-title">IT Support</h2>
                     <p class="card-text">Remotely managed IT services that is catered to your businesses needs, adds value and reduces costs.</p>
                     <button type="button" class="btn">Read More</button>
@@ -77,17 +88,18 @@ and effective first impression.</p>
             </div>
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-signal"></i>
                     <h2 class="card-title">Digital Marketing</h2>
                     <p class="card-text">Driving brand awareness and ROI through creative digital marketing campaigns. We review and monitor online performances.</p>
                     <button type="button" class="btn">Read More</button>
                 </div>
             </div>
         </div>
+
         <div class="row5 row">
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-phone-alt"></i>
                     <h2 class="card-title">Telecoms Services</h2>
                     <p class="card-text">Stay connected with bespoke telecoms solutions when you need it most.</p>
                     <button type="button" class="btn">Read More</button>
@@ -95,7 +107,7 @@ and effective first impression.</p>
             </div>
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-code"></i>
                     <h2 class="card-title">Web Design</h2>
                     <p class="card-text">User-centric design for businesses looking to make a lasting first impression.</p>
                     <button type="button" class="btn">Read More</button>
@@ -103,7 +115,7 @@ and effective first impression.</p>
             </div>            
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-shield-alt"></i>
                     <h2 class="card-title">Cyber Security</h2>
                     <p class="card-text">Ensuring your online business stays secure 24/7, 365 days of the year.</p>
                     <button type="button" class="btn">Read More</button>
@@ -111,24 +123,29 @@ and effective first impression.</p>
             </div>
             <div class="card col">
                 <div class="card-body">
-                    <img class="card-img-top" src="#" alt="Card image cap">
+                    <i class="fas fa-graduation-cap"></i>
                     <h2 class="card-title">Developer Training</h2>
                     <p class="card-text">Have you considered a career in web development but you aren’t sure where to start?</p>
                     <button type="button" class="btn">Read More</button>
                 </div>
             </div>
         </div>
+
         <div class="row6 row bg-image"
-                style="background-image: url('img/slider-image-1.jpg');
-            height: 100vh";>
+                style="background-image: url('img/nm-transparent.png');
+                        height: 100vh;
+                        background-color: black";>
             <h1>Netmatters</h1>
             <p>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.</p>
             <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing leads and further grow their sales.</p>
             <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems, workflow and IT solutions through to creative website development and integrated digital campaigning.</p>
             <button type="button" class="btn">Our Culture</button>
         </div>
-        <div class="row7 row">7</div>
+
+        <div class="row7 row">
             <h1>Latest</h1>
+        </div>
+
         <div class="row8 row">
             <div class="card col">
                 <div class="card-body">
@@ -156,12 +173,111 @@ and effective first impression.</p>
                     </div>
                 </div>
             </div>
+            <div class="card col">
+                <div class="card-body">
+                    <img class="card-img-top" src="img/now-hiring.webp" alt="Card image cap">
+                    <h2 class="card-title">Digital Marketing Executive</h2>
+                    <p class="card-text">Netmatters is one of the fastest-growing full-service digital agencies in the region. This is...</p>
+                    <button type="button" class="btn">Read More</button>
+                    <div class="card-footer">
+                        <img src="img/joe-trower-icon.webp">
+                        <p>Posted by Joe Trower</p>
+                        <p>18th March 2021</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row9 row">9</div>
-        <div class="row10 row">10</div>
-        <div class="row11 row">11</div>
-        <div class="row12 row">12</div>
+
+        <div class="row9 row">
+            <div class="col">
+                <img src="img/company-logos/busseys" alt="Busseys logo">
+            </div>
+            <div class="col">
+                <img src="img/company-logos/crane.png" alt="Busseys logo">
+            </div>
+            <div class="col">
+                <img src="img/company-logos/beat.png" alt="Busseys logo">
+            </div>
+            <div class="col">
+                <img src="img/company-logos/northern driver.png" alt="Busseys logo">
+            </div>
+        </div>
+
+        <div class="row10 row">
+            <h1>Email Newsletter Sign-Up</h1>
+            <form class="row">
+                <div class="name col">
+                    <label for="your-name">Your Name<span> *</span></label>
+                    <input class="form-control" id="your-name">
+                </div>
+                <div class="email col">
+                    <label for="email-label">Your Email<span> *</span></label>
+                    <input type="email" class="form-control" id="email-label">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="marketing-check">
+                  <label class="form-check-label" for="marketing-check">Please tick this box if you wish to receive marketing information from us. Please see our Privacy Policy for more information on how we use your data.</label>
+                </div>
+                <button class="btn col-2" type="submit">Subscribe</button>
+            </form>
+        </div>
+
+
+        <footer class="row11 row">
+            <div class="col">                
+                <h5>Contact Us</h5>
+                <address>11 Penfold Drive </br>
+                    Wymondham</br>
+                    Norfolk</br>
+                    NR18 0WZ</br>
+                </address>
+                <p>Tel: 01603 70 40 20</p>
+                <P>Email: 
+                    <a href=“mailto:support@netmatters.com?subject=Hi%20There”>support@netmatters.com</a>
+                </P>
+            </div>              
+            <div class="col">
+                <h5>About Netmatters</h5>
+                <a class="row" href="https://www.netmatters.co.uk/news">News</a>
+                <a class="row" href="https://www.netmatters.co.uk/our-careers">Our Careers</a>
+                <a class="row" href="https://www.netmatters.co.uk/team">Our Team</a>
+                <a class="row" href="https://www.netmatters.co.uk/office-tour">Our Office Tour</a>
+                <a class="row" href="https://www.netmatters.co.uk/privacy-policy">Privacy Policy</a>
+                <a class="row" href="https://www.netmatters.co.uk/cookie-policy">Cookie Policy</a>
+                <a class="row" href="https://www.netmatters.co.uk/terms-and-conditions">Terms & Conditions</a>
+                <a class="row" href="https://www.netmatters.co.uk/terms-and-conditions/uk-domains">UK Domains</a>
+            </div>
+            <div class="col">
+                <div>Website</div>
+                <a href="https://www.netmatters.co.uk/sitemap.xml">Sitemap</a>
+                <p>© Copyright Netmatters Ltd. 2021 All rights reserved</p>
+            </div>
+            <div class="col">
+                <button type="button" class="btn col-4" href="https://en-gb.facebook.com/netmatters/">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="btn col-4" href="https://twitter.com/netmattersltd">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="btn col-4" href="https://www.linkedin.com/company/netmatters-ltd/">
+                    <i class="fab fa-linkedin-in"></i>
+                </button>
+            </div>
+        </div>
+        </footer>
+
+        <div class="row12 row">
+            <span class="col"><img id="google-partner" src="img/company-logos/google-partner.png"></span>
+            <span class="col"><img src="img/company-logos/silver-microsoft-partner.jpg"></span>
+            <span class="col"><img src="img/company-logos/future-50.jpg"></span>
+            <span class="col"><img src="img/company-logos/qms-iso-27001.jpg"></span>
+            <span class="col"><img src="img/company-logos/norfolk-carbon-charter.jpg"></span>
+        </div>
+        <footer class="row12 row">
+            <span class="col"><img src="img/company-logos/investing-in-future-growth.jpg"></span>
+            <span class="col"><img src="img/company-logos/princess-royal-training.jpg"></span>
+            <span class="col"><img src="img/company-logos/skills-of-tomorrow.jpg"></span>
+        </footer>
     </div>
-    <div class="test">testing</div>
 </body>
 </html>
