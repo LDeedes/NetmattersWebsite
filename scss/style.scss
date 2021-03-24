@@ -1,12 +1,60 @@
 
+
 .btn {
-    background-color: lightgreen;
+    background-color: rgb(28, 212, 28);
 }
-.row {
-    color:blueviolet;
+
+.level-0,
+.row,
+main {
+    --bs-gutter-x: 0;
 }
+
+.row1 {
+    margin: 20px; 
+    .btn {
+        margin-left: 1.5rem;
+        height: 3.5rem;    
+    }
+}
+
+.row2 {
+    width: 100%;
+    .btn{
+        background-color: rgb(228, 231, 20);
+        border-radius: 0%;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        // --bs-gutter-x: 0;
+    }   
+}
+
+.dropdown {
+    background-color: crimson;
+}
+
+.web-design-dropdown,
+.it-support-dropdown {
+    display: none;
+    position: absolute;
+    
+}
+.web-design:hover {
+    .web-design-dropdown  {
+        display: block;
+        }
+}
+.it-support:hover {
+    .it-support-dropdown  {
+        display: block
+        }
+}
+
 
 #google-partner {
     width:250px;    
 }
 
+
+@import '../node_modules/normalize-scss/sass/normalize/import-now';

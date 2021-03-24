@@ -1,0 +1,105 @@
+css:
+.web-design-dropdown,
+.it-support-dropdown {
+    display: none;
+    position: absolute;
+}
+.web-design:hover {
+    .web-design-dropdown  {
+        display: block;
+        }
+}
+.it-support:hover {
+    .it-support-dropdown  {
+        display: block
+        }
+}
+
+works for these two, but dropdown only appears below button and page gets horizontal scroll
+
+<div class="row row2 d-none d-lg-inline-flex">     
+            <div class="col web-design">
+                <button type="button" class="btn">
+                    <a href="https://www.netmatters.co.uk/web-design">
+                        <i class="row fas fa-code"></i>
+                        <span class="row">Web Design</span>
+                    </a>
+                </button> 
+                <div class="web-design-dropdown container-fluid">            
+                    <ul class="row ">
+                        <li class="col">
+                            Stylish Websites
+                        </li>
+                        <li class="col">
+                            Ecommerce Stores
+                        </li>
+                        <li class="col">
+                            Branding
+                        </li>
+                        <li class="col">
+                            Apps
+                        </li>
+                        <li class="col">
+                            Web Hosting
+                        </li>
+                        <li class="col">
+                            Pay Monthly Websites
+                        </li>
+                    </ul>
+                </div>   
+            </div>  
+            <div class="col it-support"> 
+                <button type="button" class="btn">
+                    <a href="https://www.netmatters.co.uk/it-support">
+                        <i class="row fas fa-desktop"></i>                
+                        <span class="row">IT Support</span>
+                    </a>
+                </button>
+                <div class="it-support-dropdown container-fluid" >
+                    <ul class="row">
+                        <li class="col">
+                            Managed IT
+                        </li>
+                        <li class="col">
+                            Business IT
+                        </li>
+                        <li class="col">
+                            Office 365
+                        </li>
+                        <li class="col">
+                            Consultancy
+                        </li>
+                        <li class="col">
+                            Cloud Provider
+                        </li>
+                        <li class="col">
+                            Data Backup
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/telecoms-services">
+                    <i class="row fas fa-phone-alt"></i>
+                    <span class="row">Telecoms Services</span>
+                </a>
+            </button>
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/bespoke-software">
+                    <i class="row fas fa-th"></i>
+                    <span class="row">Bespoke Software</span>
+                </a>
+            </button>
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/digital-marketing">
+                    <i class="row fas fa-signal"></i>
+                    <span class="row">Digital Marketing</span>
+                </a>
+            </button>
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/cyber-security">
+                    <i class="row fas fa-shield-alt"></i>
+                    <span class="row">Cyber Security</span>
+                </a>
+            </button>      
+        </div>
