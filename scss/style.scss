@@ -10,46 +10,102 @@ main {
     --bs-gutter-x: 0;
 }
 
-.row1 {
-    margin: 20px; 
-    .btn {
-        margin-left: 1.5rem;
-        height: 3.5rem;    
+.logo {
+     margin-right: 40px;
+     #net-matters-logo {
+        width: 370px; 
     }
 }
 
+.row1 {
+     padding: 27px 3%;
+     background-color: brown;
+    .support,
+    .contact,
+    .search,
+    .menu {
+        margin-left: 1.5rem;
+        height: 3.5rem;
+        // margin: 3.5rem;    
+    }
+}
+
+
+
+
 .row2 {
     width: 100%;
+    height: 100px;
+    padding: 0 3%;
     .btn{
         background-color: rgb(228, 231, 20);
-        border-radius: 0%;
+        border-radius: 1px;
+        border-color: darkmagenta;
         margin: 0;
         height: 100%;
         width: 100%;
+       span {
+           justify-content: center;
+       }
         // --bs-gutter-x: 0;
     }   
 }
 
 .dropdown {
     background-color: crimson;
-}
-
-.web-design-dropdown,
-.it-support-dropdown {
     display: none;
-    position: absolute;
-    
+    position: absolute;   
 }
 .web-design:hover {
-    .web-design-dropdown  {
+    .web-design-dropdown {
         display: block;
-        }
+    }
 }
 .it-support:hover {
-    .it-support-dropdown  {
+    .it-support-dropdown {
         display: block
-        }
+    }
 }
+.telecoms-services:hover {
+    .telecoms-services-dropdown {
+        display: block
+    }
+}
+.bespoke-software:hover {
+    .bespoke-software-dropdown {
+        display: block
+    }
+}
+.digital-marketing:hover {
+    .digital-marketing-dropdown {
+        display: block
+    }
+}
+.cyber-security:hover {
+    .cyber-security-dropdown {
+        display: block;
+    }
+}
+    
+
+
+.row3 {
+    height: 490px;
+    .bg-image {
+        background: linear-gradient(to right, #020202, transparent), 
+        url('../img/slider-image-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 1263px;
+        height: 100%;
+    }
+
+}
+
+
+// style="background-image: url('img/slider-image-1.jpg');
+//                 height: 100vh"
 
 
 #google-partner {

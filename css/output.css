@@ -8,31 +8,44 @@ main {
   --bs-gutter-x: 0;
 }
 
-.row1 {
-  margin: 20px;
+.logo {
+  margin-right: 40px;
 }
-.row1 .btn {
+.logo #net-matters-logo {
+  width: 370px;
+}
+
+.row1 {
+  padding: 27px 3%;
+  background-color: brown;
+}
+.row1 .support,
+.row1 .contact,
+.row1 .search,
+.row1 .menu {
   margin-left: 1.5rem;
   height: 3.5rem;
 }
 
 .row2 {
   width: 100%;
+  height: 100px;
+  padding: 0 3%;
 }
 .row2 .btn {
   background-color: #e4e714;
-  border-radius: 0%;
+  border-radius: 1px;
+  border-color: darkmagenta;
   margin: 0;
   height: 100%;
   width: 100%;
 }
+.row2 .btn span {
+  justify-content: center;
+}
 
 .dropdown {
   background-color: crimson;
-}
-
-.web-design-dropdown,
-.it-support-dropdown {
   display: none;
   position: absolute;
 }
@@ -43,6 +56,34 @@ main {
 
 .it-support:hover .it-support-dropdown {
   display: block;
+}
+
+.telecoms-services:hover .telecoms-services-dropdown {
+  display: block;
+}
+
+.bespoke-software:hover .bespoke-software-dropdown {
+  display: block;
+}
+
+.digital-marketing:hover .digital-marketing-dropdown {
+  display: block;
+}
+
+.cyber-security:hover .cyber-security-dropdown {
+  display: block;
+}
+
+.row3 {
+  height: 490px;
+}
+.row3 .bg-image {
+  background: linear-gradient(to right, #020202, transparent), url("../img/slider-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 1263px;
+  height: 100%;
 }
 
 #google-partner {
