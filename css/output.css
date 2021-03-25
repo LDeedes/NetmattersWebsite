@@ -1,10 +1,22 @@
-.btn {
-  background-color: #1cd41c;
+body {
+  font-family: "Poppins", sans-serif;
+  --bs-gutter-x: 0;
+}
+body a:link {
+  text-decoration: none;
+  color: white;
+}
+body a:visited {
+  text-decoration: none;
+  color: white;
 }
 
-.level-0,
-.row,
-main {
+.btn {
+  background-color: #333645;
+  color: white;
+}
+
+.row {
   --bs-gutter-x: 0;
 }
 
@@ -17,34 +29,48 @@ main {
 
 .row1 {
   padding: 27px 3%;
-  background-color: brown;
+  font-size: 18px;
+  line-height: 46px;
 }
 .row1 .support,
 .row1 .contact,
 .row1 .search,
 .row1 .menu {
+  text-transform: uppercase;
   margin-left: 1.5rem;
-  height: 3.5rem;
+  height: 58px;
+}
+.row1 .menu {
+  font-size: 12px;
+}
+.row1 .search .btn {
+  width: 25%;
 }
 
 .row2 {
   width: 100%;
   height: 100px;
   padding: 0 3%;
+  background-color: #333645;
 }
 .row2 .btn {
-  background-color: #e4e714;
+  text-transform: uppercase;
   border-radius: 1px;
   border-color: darkmagenta;
   margin: 0;
   height: 100%;
   width: 100%;
 }
-.row2 .btn span {
+.row2 .btn .menu-text {
   justify-content: center;
+}
+.row2 .btn span {
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .dropdown {
+  text-transform: uppercase;
   background-color: crimson;
   display: none;
   position: absolute;
@@ -77,13 +103,36 @@ main {
 .row3 {
   height: 490px;
 }
-.row3 .bg-image {
+.row3 .bg-image-1 {
   background: linear-gradient(to right, #020202, transparent), url("../img/slider-image-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   width: 1263px;
   height: 100%;
+}
+.row3 .carousel-text-1 {
+  color: white;
+  padding: 0px 0 0 3em;
+}
+.row3 .carousel-text-1 h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+.row3 .carousel-text-1 p {
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+.row3 .carousel-text-1 .btn {
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.row4 {
+  height: 310px;
+}
+.row4 .card {
+  text-align: center;
 }
 
 #google-partner {

@@ -1,0 +1,9 @@
+@mixin up {
+    text-transform: uppercase;
+    //font-weight: bold;
+}
+
+@mixin up-s {
+    @include up;
+    font-size: 10px;
+}

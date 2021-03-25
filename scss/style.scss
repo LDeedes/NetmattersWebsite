@@ -1,14 +1,27 @@
+@import "partials/variables",
+        "partials/mixins";
 
+body {
+    font-family: 'Poppins', sans-serif;
+    --bs-gutter-x: 0;
+    a:link {
+        text-decoration: none;
+        color: white;
+      }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }  
+}
 
 .btn {
-    background-color: rgb(28, 212, 28);
+    background-color: #333645;
+    color: white;
 }
-
-.level-0,
-.row,
-main {
+.row {
     --bs-gutter-x: 0;
 }
+
 
 .logo {
      margin-right: 40px;
@@ -16,17 +29,25 @@ main {
         width: 370px; 
     }
 }
-
 .row1 {
-     padding: 27px 3%;
-     background-color: brown;
+    padding: 27px 3%;
+    font-size: 18px;
+    
+    line-height: 46px;
     .support,
     .contact,
     .search,
     .menu {
+        @include up;
         margin-left: 1.5rem;
-        height: 3.5rem;
-        // margin: 3.5rem;    
+        height: 58px;
+        // margin: 3.5rem; 
+    }
+    .menu {
+        font-size: 12px;
+    }
+    .search .btn {
+        width: 25%;
     }
 }
 
@@ -37,21 +58,26 @@ main {
     width: 100%;
     height: 100px;
     padding: 0 3%;
+    background-color: #333645;
     .btn{
-        background-color: rgb(228, 231, 20);
+        @include up;
         border-radius: 1px;
         border-color: darkmagenta;
         margin: 0;
         height: 100%;
         width: 100%;
-       span {
+       .menu-text {
            justify-content: center;
-       }
+        }
+        span {
+            @include up-s;
+        }
         // --bs-gutter-x: 0;
     }   
 }
 
 .dropdown {
+    @include up;
     background-color: crimson;
     display: none;
     position: absolute;   
@@ -91,14 +117,38 @@ main {
 
 .row3 {
     height: 490px;
-    .bg-image {
+    .bg-image-1 {
         background: linear-gradient(to right, #020202, transparent), 
-        url('../img/slider-image-1.jpg');
+            url('../img/slider-image-1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         width: 1263px;
-        height: 100%;
+        height: 100%;        
+    }
+    .carousel-text-1 {
+        color: white;
+        padding: 0px 0 0 3em;
+        h1 {
+            font-size: 48px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 20px;
+            padding-bottom: 35px;
+        }
+        .btn {
+            font-size: 20px;
+            padding: 5px 20px;
+        }
+    }
+}
+
+
+.row4 {
+    height: 310px;
+    .card {
+        text-align: center;
     }
 
 }
