@@ -1,9 +1,24 @@
+//uppercase text
 @mixin up {
     text-transform: uppercase;
     //font-weight: bold;
 }
 
+//small uppercase text
 @mixin up-s {
     @include up;
     font-size: 10px;
+    line-height: 5px;
+}
+
+//square buttons
+@mixin square {
+    border-radius: 1px;
+}
+
+@mixin menu {
+    i {
+        padding-bottom: 15px;
+        padding-top: 12px;
+    }
 }

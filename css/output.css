@@ -1,65 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
   --bs-gutter-x: 0;
 }
 body a:link {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 body a:visited {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 .btn {
+  font-family: "Poppins", sans-serif;
   background-color: #333645;
-  color: white;
+  color: #FFFFFF;
+}
+.btn:hover {
+  color: #FFFFFF;
 }
 
 .row {
   --bs-gutter-x: 0;
 }
 
-.logo {
+.row1 {
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 46px;
+  align-items: center;
+}
+.row1 .logo {
+  flex: 0 0 370px;
+  margin-left: 40px;
   margin-right: 40px;
 }
-.logo #net-matters-logo {
+.row1 .logo #net-matters-logo {
   width: 370px;
 }
-
-.row1 {
-  padding: 27px 3%;
+.row1 .scsm {
+  height: 100%;
+}
+.row1 .scsm .p-2 {
+  padding: 0 0 !important;
+}
+.row1 .scsm .r1-item {
+  text-transform: uppercase;
+  height: 56px;
   font-size: 18px;
   line-height: 46px;
 }
-.row1 .support,
-.row1 .contact,
-.row1 .search,
-.row1 .menu {
-  text-transform: uppercase;
-  margin-left: 1.5rem;
-  height: 58px;
+.row1 .scsm i {
+  font-size: 23px;
 }
-.row1 .menu {
+.row1 .scsm .support {
+  background-color: #4183D7;
+  flex: 0 0 137px;
+}
+.row1 .scsm .support:hover {
+  background-color: #2A6EC6;
+}
+.row1 .scsm .contact,
+.row1 .scsm .search .btn {
+  background-color: #999aa2;
+}
+.row1 .scsm .contact:hover,
+.row1 .scsm .search .btn:hover {
+  background-color: #84858F;
+}
+.row1 .scsm .contact {
+  flex: 0 0 145px;
+  margin-left: 22px;
+}
+.row1 .scsm .search .btn {
+  flex: 0 0 63px;
+  font-size: 23px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  margin-right: 55px;
+}
+.row1 .scsm #search-box {
+  font-family: "Poppins", sans-serif;
+  border-radius: 1px;
+  font-size: 14px;
+  flex: 0 0 240px;
+  margin-left: 22px;
+}
+.row1 .scsm .search {
+  flex: 0 0 305px;
+}
+.row1 .scsm .menu {
+  flex: 0 0 65px;
+  line-height: 0.4px;
   font-size: 12px;
+  line-height: 15px;
+  margin-left: 42px;
 }
-.row1 .search .btn {
-  width: 25%;
+.row1 .scsm .menu i {
+  font-size: 28px;
+}
+.row1 .scsm .menu:hover {
+  background-color: #22242E;
 }
 
 .row2 {
   width: 100%;
   height: 100px;
-  padding: 0 3%;
   background-color: #333645;
+  border-bottom: 1px solid #989AA1;
+}
+.row2 .p-2 {
+  padding: 0 0 !important;
+  flex: 0 0 195px;
+  justify-content: center;
 }
 .row2 .btn {
   text-transform: uppercase;
   border-radius: 1px;
-  border-color: darkmagenta;
-  margin: 0;
+  border-width: 0 0.5px;
+  border-left-color: #262833;
+  border-right-color: #474A58;
   height: 100%;
   width: 100%;
+  font-size: 18px;
+}
+.row2 .btn i {
+  padding-bottom: 15px;
+  padding-top: 12px;
 }
 .row2 .btn .menu-text {
   justify-content: center;
@@ -67,41 +135,102 @@ body a:visited {
 .row2 .btn span {
   text-transform: uppercase;
   font-size: 10px;
+  line-height: 5px;
 }
 
 .dropdown {
   text-transform: uppercase;
-  background-color: crimson;
   display: none;
   position: absolute;
 }
 
+.web-design i {
+  color: #926FB1;
+}
 .web-design:hover .web-design-dropdown {
   display: block;
+  background-color: #79539A;
+}
+.web-design:hover .btn {
+  background-color: #926FB1;
+}
+.web-design:hover i {
+  color: #FFFFFF;
 }
 
+.it-support i {
+  color: #4183D7;
+}
 .it-support:hover .it-support-dropdown {
   display: block;
+  background-color: #286ABD;
+}
+.it-support:hover .btn {
+  background-color: #4183D7;
+}
+.it-support:hover i {
+  color: #FFFFFF;
 }
 
+.telecoms-services i {
+  color: #D64541;
+}
 .telecoms-services:hover .telecoms-services-dropdown {
   display: block;
+  background-color: #BC2C28;
+}
+.telecoms-services:hover .btn {
+  background-color: #D64541;
+}
+.telecoms-services:hover i {
+  color: #FFFFFF;
 }
 
+.bespoke-software i {
+  color: #67809F;
+}
 .bespoke-software:hover .bespoke-software-dropdown {
   display: block;
+  background-color: #526781;
+}
+.bespoke-software:hover .btn {
+  background-color: #67809F;
+}
+.bespoke-software:hover i {
+  color: #FFFFFF;
 }
 
+.digital-marketing i {
+  color: #2ECC71;
+}
 .digital-marketing:hover .digital-marketing-dropdown {
   display: block;
+  background-color: #25A25A;
+}
+.digital-marketing:hover .btn {
+  background-color: #2ECC71;
+}
+.digital-marketing:hover i {
+  color: #FFFFFF;
 }
 
+.cyber-security i {
+  color: #F62459;
+}
 .cyber-security:hover .cyber-security-dropdown {
   display: block;
+  background-color: #DE093F;
+}
+.cyber-security:hover .btn {
+  background-color: #F62459;
+}
+.cyber-security:hover i {
+  color: #FFFFFF;
 }
 
 .row3 {
   height: 490px;
+  margin-bottom: 50px;
 }
 .row3 .bg-image-1 {
   background: linear-gradient(to right, #020202, transparent), url("../img/slider-image-1.jpg");
@@ -112,27 +241,55 @@ body a:visited {
   height: 100%;
 }
 .row3 .carousel-text-1 {
-  color: white;
-  padding: 0px 0 0 3em;
+  color: #FFFFFF;
+  padding: 0px 0 0 48px;
+  font-size: 20px;
 }
 .row3 .carousel-text-1 h1 {
+  text-transform: uppercase;
   font-size: 48px;
   margin-bottom: 25px;
+  margin-top: 0px;
 }
 .row3 .carousel-text-1 p {
   font-size: 20px;
-  padding-bottom: 35px;
+  line-height: 36px;
+  margin-bottom: 35px;
 }
 .row3 .carousel-text-1 .btn {
+  text-transform: uppercase;
+  background-color: #926FB1;
   font-size: 20px;
-  padding: 5px 20px;
+  height: 62px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row3 .carousel-text-1 .btn .fa-arrow-right {
+  margin-left: 15px;
 }
 
 .row4 {
   height: 310px;
+  margin: auto;
 }
 .row4 .card {
   text-align: center;
+  width: 370px;
+  margin: 0 16px 32px 16px;
+  padding: 15px;
+}
+.row4 .card-title {
+  font-size: 18px;
+}
+.row4 .card-body {
+  font-size: 13px;
+  line-height: 22px;
+}
+.row4 .btn {
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 128px;
+  justify-self: center;
 }
 
 #google-partner {

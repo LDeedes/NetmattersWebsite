@@ -1,0 +1,205 @@
+row 1 button transitions
+
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+
+
+
+    <nav class="row2 row d-none d-lg-inline-flex">     
+        <div class=" col web-design">
+            <button type="button" class="btn">
+                <a href="https://www.netmatters.co.uk/web-design">
+                    <i class="row fas fa-code"></i>
+                    <div class="row menu-text">
+                        <span>Web</span>Design
+                    </div>
+                </a>
+            </button> 
+            <div class="web-design-dropdown dropdown container-fluid">            
+                <ul class="row ">
+                    <li class="col">
+                        Stylish Websites
+                    </li>
+                    <li class="col">
+                        Ecommerce Stores
+                    </li>
+                    <li class="col">
+                        Branding
+                    </li>
+                    <li class="col">
+                        Apps
+                    </li>
+                    <li class="col">
+                        Web Hosting
+                    </li>
+                    <li class="col">
+                        Pay Monthly Websites
+                    </li>
+                </ul>
+            </div>   
+        </div>  
+        <div class="col it-support"> 
+            <button type="button" class="btn">
+                <a href="https://www.netmatters.co.uk/it-support">
+                    <i class="row fas fa-desktop"></i>                
+                    <div class="row menu-text">
+                        <span>IT</span>Support
+                    </div> 
+                </a>
+            </button>
+            <div class="it-support-dropdown dropdown container-fluid" >
+                <ul class="row">
+                    <li class="col">
+                        Managed IT
+                    </li>
+                    <li class="col">
+                        Business IT
+                    </li>
+                    <li class="col">
+                        Office 365
+                    </li>
+                    <li class="col">
+                        Consultancy
+                    </li>
+                    <li class="col">
+                        Cloud Provider
+                    </li>
+                    <li class="col">
+                        Data Backup
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col telecoms-services">
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/telecoms-services">
+                    <i class="row fas fa-phone-alt"></i>
+                    <div class="row menu-text">
+                        <span>Telecoms</span>Services
+                    </div>
+                </a>
+            </button>
+            <div class="telecoms-services-dropdown dropdown container-fluid">            
+                <ul class="row ">
+                    <li class="col">
+                        Gigabit Voucher
+                    </li>
+                    <li class="col">
+                        Hosted VOIP
+                    </li>
+                    <li class="col">
+                        Business VOIP
+                    </li>
+                    <li class="col">
+                        Business Broadband
+                    </li>
+                    <li class="col">
+                        Leased Line
+                    </li>
+                    <li class="col">
+                        3CX Systems
+                    </li>
+                </ul>
+            </div>  
+        </div>
+        <div class="col bespoke-software">
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/bespoke-software">
+                    <i class="row fas fa-th"></i>
+                    <div class="row menu-text">
+                        <span>Bespoke</span>Software
+                    </div>                    
+                </a>
+            </button>
+            <div class="bespoke-software-dropdown dropdown container-fluid">            
+                <ul class="row ">
+                    <li class="col">
+                        Workflow Solutions
+                    </li>
+                    <li class="col">
+                        Automation
+                    </li>
+                    <li class="col">
+                        System Integration
+                    </li>
+                    <li class="col">
+                        Database Management
+                    </li>
+                    <li class="col">
+                        Sharepoint
+                    </li>
+                    <li class="col">
+                        ERP
+                    </li>
+                </ul>
+            </div>  
+        </div>
+        <div class="col digital-marketing">
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/digital-marketing">
+                    <i class="row fas fa-signal"></i>
+                    <div class="row menu-text">
+                        <span>Digital</span>Marketing
+                    </div>                    
+                </a>
+            </button>
+            <div class="digital-marketing-dropdown dropdown container-fluid">            
+                <ul class="row ">
+                    <li class="col">
+                        Search (SEO)
+                    </li>
+                    <li class="col">
+                        Paid (PPC)
+                    </li>
+                    <li class="col">
+                        Conversion (CRO)
+                    </li>
+                    <li class="col">
+                        Email
+                    </li>
+                    <li class="col">
+                        Social Media
+                    </li>
+                    <li class="col">
+                        Content
+                    </li>
+                </ul>
+            </div>  
+        </div>
+        <div class="col cyber-security">
+            <button type="button" class="col btn">
+                <a href="https://www.netmatters.co.uk/cyber-security">
+                    <i class="row fas fa-shield-alt"></i>
+                    <div class="row menu-text">
+                        <span>Cyber</span>Security
+                    </div>
+                </a>
+            </button>  
+            <div class="cyber-security-dropdown dropdown container-fluid">            
+                <ul class="row ">
+                    <li class="col">
+                        Assessment
+                    </li>
+                    <li class="col">
+                        Management
+                    </li>
+                    <li class="col">
+                        Penetration Testing
+                    </li>
+                    <li class="col">
+                        Cyber Essentials
+                    </li>
+                    <li class="col">
+                        PCI/DSS
+                    </li>
+                    <li class="col">
+                        Hacker Prevention
+                    </li>
+                </ul>
+            </div>  
+        </div>  
+    </nav>
+    </header>
