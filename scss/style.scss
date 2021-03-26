@@ -90,8 +90,8 @@ body {
         .search .btn {
             flex: 0 0 63px;
             font-size: 23px;
-            border-top-left-radius: 1px;
-            border-bottom-left-radius: 1px;
+            border-top-left-radius: 0%;
+            border-bottom-left-radius: 0%;
             margin-right: 55px;
         }
         #search-box {
@@ -126,7 +126,7 @@ body {
 // ----------------------------------------------------------------------------
 
 .row2 {
-    width: 100%;
+    justify-content: center;
     height: 100px;
     background-color: #333645;
     border-bottom: 1px solid #989AA1;
@@ -311,13 +311,16 @@ body {
 }
 
 // ----------------------------------------------------------------------------
-//  Row 4
+//  Row 4 + 5
 // ----------------------------------------------------------------------------
 
-.row4 {
-    height: 310px;
-    margin: auto;
+
+
+.row4, 
+.row5 {
+    
     .card {
+        height: 310px;
         text-align: center;
         width: 370px;
         margin: 0 16px 32px 16px;
@@ -325,21 +328,28 @@ body {
     }
     .card-title {
         font-size: 18px;
+        padding: 17px;
     }
     .card-body {
         font-size: 13px;
         line-height: 22px;
+        margin-bottom: 13px;
+    }
+    i {
+        background-color: royalblue;
+        border-radius: 50%;
+        padding: 18px;
+        font-size: 20px;
+        margin-bottom: 17px;
     }
     .btn {
         @include up;
         font-size: 17px;
         width: 128px;
-        justify-self: center;
+        padding: 10px 15px;
+    
     }
-
 }
-
-
 
 
 
